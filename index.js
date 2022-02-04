@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.menu-bars');
 const nav = document.querySelector('#desktop-nav');
 const menulist = document.querySelector('#desktop-nav ul');
-const menuitems = Array.from(document.querySelectorAll('#desktop-nav ul li'));
+const menuitems = Array.from(document.querySelector('#desktop-nav ul li'));
 const icon = document.querySelector('.menu-bars .fas');
 
 hamburger.addEventListener('click', () => {
