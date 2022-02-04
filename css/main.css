@@ -49,17 +49,17 @@ header {
   padding: 92px 24px 0 24px;
 }
 
+#desktop-nav ul.nav-open .nav-link {
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+}
+
 #desktop-nav ul.nav-open li {
   text-align: left;
   width: 100%;
   padding: 8px;
   border-bottom: 1px solid #6F6C6B;
-}
-
-#desktop-nav ul.nav-open .nav-link {
-  font-weight: 700;
-  font-size: 32px;
-  color: white;
 }
 
 #desktop-nav ul.nav-open .fa-envelope {
