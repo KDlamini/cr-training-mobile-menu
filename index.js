@@ -16,3 +16,12 @@ hamburger.addEventListener('click', () => {
     icon.classList.add('fa-bars');
   }
 });
+
+menuitems.forEach((item) => {
+  item.addEventListener('click', () => {
+    nav.classList.toggle('nav-open');
+    menulist.classList.toggle('nav-open');
+    icon.classList.remove('fa-times');
+    icon.classList.add('fa-bars');
+  });
+});
