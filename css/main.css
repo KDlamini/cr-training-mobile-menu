@@ -38,7 +38,7 @@ header {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #3C3A39;
+  background: #3c3a39;
   z-index: 1;
 }
 
@@ -53,13 +53,6 @@ header {
   font-weight: 700;
   font-size: 32px;
   color: white;
-}
-
-#desktop-nav ul.nav-open li {
-  text-align: left;
-  width: 100%;
-  padding: 8px;
-  border-bottom: 1px solid #6F6C6B;
 }
 
 #desktop-nav ul.nav-open .fa-envelope {
@@ -89,7 +82,7 @@ header {
 
 .menu-bars .fa-times {
   font-size: 24px;
-  color: #6F6C6B;
+  color: #6f6c6b;
 }
 
 main {
@@ -321,6 +314,13 @@ li {
 
 .project-stacks li:hover {
   background: rgba(0, 0, 0, 0.349);
+}
+
+#desktop-nav ul.nav-open li {
+  text-align: left;
+  width: 100%;
+  padding: 8px;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 #about-me,
